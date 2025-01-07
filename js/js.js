@@ -32,7 +32,7 @@ document.querySelector('.check').addEventListener('click', function() {
             document.querySelector('.score').textContent = score;
         } else {
             document.querySelector('.guess-message').textContent = 'Game Over! ';
-            document.querySelector('.score').textContent = score;
+            document.querySelector('.score').textContent = 0;
         }
         //to0 low
     } else if (guessingNumber < sectetNumber) {

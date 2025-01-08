@@ -8,7 +8,8 @@
 :root {
     --dark: #000;
     --light: #0bdd11;
-    /*--accent: #0bdd11;*/
+    --accent: #FF0000;
+
 }
 html {
     font-size: 50%;
